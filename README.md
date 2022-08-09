@@ -1,2 +1,2 @@
-# http://grmoveissobmedida.github.io
+# http://grmoveis.github.io
 site de móveis
