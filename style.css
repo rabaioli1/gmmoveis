@@ -1,0 +1,149 @@
+@keyframes imagen-do-meio{
+
+    from {width:0 px;
+    height: 0px;
+}
+
+    to {width: 400px;
+height: 400px;}
+}
+
+*body{
+    margin:0;
+    padding: 0;
+}
+
+
+header{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+}
+
+.header-image{
+    height: 150px;
+    width: 150px;
+    padding-left: 40PX;
+}
+nav a{
+    padding: 40px;
+    color: aliceblue;
+    font-family: 'Bahianita', cursive;
+    font-size: 30px;
+}
+
+
+main{
+    justify-content: space-evenly; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: black;
+    margin-top: solid;
+    margin: 1px;
+    padding-bottom: 35px;
+    
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    border-top-color: solid white 2px;
+}
+
+.titulo-meio{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+.paragrafos{
+color:white;
+font-family: 'Bahianita', cursive;
+font-size: 30px;
+}
+
+.imagen-do-meio{
+
+    height: 400px;
+    width: 400px;
+    padding-top: 60px;
+    border-top-color: solid white 2px;  
+    animation-name:imagen-do-meio;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.botao{
+    background-color: darkslategray;
+    height: 45px;
+    width: 140px;
+    font: bold 15px arial;
+    color:aliceblue;
+    border-radius:45px;
+    border-color: aliceblue;
+    
+}
+
+.botao:hover{
+background: #016ABC;
+color: #fff;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+text-shadow:none}
+
+footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    margin-top: solid;
+    margin: 1px;
+}
+
+.logo-rodapé{
+    margin: 0 auto;
+    height: 50px;
+
+}
+
+.titulo-rodape{
+color: aliceblue;
+font-family: 'Yellowtail', cursive;
+}
+
+.endereço{
+    color: #fff0f2;
+    font-family: 'Bahianita', cursive;
+    font-size: 35px;
+}
+
+.redessociais{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoinsta{
+    width: 30px;
+    padding: 10px; 
+}
+
+.logoface{
+    width: 40px;
+    padding: 10px; 
+}
+
+.logowhats{
+    width: 35px;
+    padding: 10px; 
+}
